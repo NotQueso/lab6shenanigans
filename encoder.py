@@ -1,3 +1,7 @@
+# Lab 6: Version Control
+# Program Name: encoder.py
+# Program Creator: Alexander Linick
+
 #encode function for menu
 def encode(string):
         numbers = []
