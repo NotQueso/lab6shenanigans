@@ -9,8 +9,14 @@ def encode(string):
             encodednum += str(numbers[j])
             return encodednum
 
-def decode():
-    print("The encoded password is ", encodednum, ", and the original password is ", password)
+def decode(encoded):
+    numbers=[]
+    decodednum=''
+    for i in range(len(encoded)):
+        numbers.append(int(encoded[i])-3)
+    for j in range(len(numbers)):
+        decodednum+=str(numbers[j])
+    return decodednum 
 
 #main function for menu
 if __name__ == '__main__':
