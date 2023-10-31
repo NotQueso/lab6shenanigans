@@ -31,11 +31,12 @@ if __name__ == '__main__':
 
         if option == 1:
             password = str(input("Please enter your password to encode: "))
-            encode(password)
+            x= encode(password)
             print("Your password has been encoded and stored!\n")
 
             continue
 
         if option == 2:
+            print("the encoded password is", x, "and the original password is", decode(x))
             continue
 
