@@ -26,6 +26,7 @@ if __name__ == '__main__':
         print("2. Decode")
         print("3. Quit")
 
+        # takes user input for the menu option they want to select
         option = int(input("\nPlease enter an option: "))
 
         if option == 1:
