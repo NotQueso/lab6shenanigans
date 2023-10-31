@@ -33,9 +33,11 @@ if __name__ == '__main__':
             x= encode(password)
             print("Your password has been encoded and stored!\n")
 
-            continue
-
-        if option == 2:
+        elif option == 2:
             print("the encoded password is", x, "and the original password is", decode(x))
-            continue
+                
+        elif option == 3:
+            exit()
+
+
 
