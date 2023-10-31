@@ -1,6 +1,5 @@
 #encode function for menu
 def encode(string):
-    def encode(string):
         numbers = []
         encodednum = ''
         for i in range(len(string)):
